@@ -1,0 +1,217 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    color: #333;
+}
+
+
+header {
+    display: flex;
+    background-color: #63727be7;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+header .name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.Discover {
+    background-image: url('freepik__expand__76020.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.Discover .Discover-text h1 {
+    font-size: 50px;
+    
+}
+
+.Discover .Discover-text p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Discover .Discover-text .button{
+    background-color: #e0b0ff;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.Discover .Discover-text .button:hover{
+    background-color: #3e1659;
+}
+
+.shop {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.shop h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.product-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 20px;
+    color: #888;
+}
+
+.product button {
+    padding: 10px;
+    background-color: #e0b0ff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#about {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    color: #666;
+}
+
+
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header .name {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .Discover .Discover-text h1 {
+        font-size: 40px;
+    }
+
+    .Discover .Discover-text p {
+        font-size: 18px;
+    }
+
+    .shop h2 {
+        font-size: 28px;
+    }
+
+    .product-items {
+        justify-content: center;
+    }
+
+    .product {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    #about h2 {
+        font-size: 28px;
+    }
+
+    #about p {
+        font-size: 16px;
+    }
+
+    footer .social-media a {
+        font-size: 14px;
+        margin: 0 5px;
+    }
+}
+

@@ -1,0 +1,311 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skincare & Perfumes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <header>
+        <div class="name">Brand</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section class="Discover">
+        <div class="Discover-text">
+            <h1>Discover Your True Radiance</h1>
+            <p>Shop our premium skincare and perfumes collection</p>
+            <a href="#shop" class="button">Shop Now</a>
+        </div>
+    </section>
+
+   
+    <section class="shop">
+        <h2>Featured Products</h2>
+        <div class="product-items">
+            <div class="product">
+                <img src="Victoria-s-Secret-Bombshell-Eau-De-Parfum-Spray-Perfume-for-Women-3-4-Oz_28ac2882-8a01-4086-9875-3d7e04628fa8.669b0d309114aee2b991ab60b9054e52.webp" alt="Product 1" height="300px">
+                <h3>Product 1</h3>
+                <p>$49.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="s-l960.webp" alt="Product 2" height="300px">
+                <h3>Product 2</h3>
+                <p>$59.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="3614272761445_4.jpg" alt="Product 3" height="300px">
+                <h3>Product 3</h3>
+                <p>$149.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At BrandName, we specialize in high-quality skincare and perfumes, made with natural ingredients to enhance your beauty and well-being.</p>
+    </section>
+
+
+   
+    <footer>
+        <div class="social-media">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+        </div>
+        <p>&copy; 2025 BrandName. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+(css)
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    color: #333;
+}
+
+
+header {
+    display: flex;
+    background-color: #63727be7;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+header .name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.Discover {
+    background-image: url('freepik__expand__76020.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.Discover .Discover-text h1 {
+    font-size: 50px;
+    
+}
+
+.Discover .Discover-text p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Discover .Discover-text .button{
+    background-color: #e0b0ff;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.Discover .Discover-text .button:hover{
+    background-color: #3e1659;
+}
+
+.shop {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.shop h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.product-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 20px;
+    color: #888;
+}
+
+.product button {
+    padding: 10px;
+    background-color: #e0b0ff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#about {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    color: #666;
+}
+
+
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header .name {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .Discover .Discover-text h1 {
+        font-size: 40px;
+    }
+
+    .Discover .Discover-text p {
+        font-size: 18px;
+    }
+
+    .shop h2 {
+        font-size: 28px;
+    }
+
+    .product-items {
+        justify-content: center;
+    }
+
+    .product {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    #about h2 {
+        font-size: 28px;
+    }
+
+    #about p {
+        font-size: 16px;
+    }
+
+    footer .social-media a {
+        font-size: 14px;
+        margin: 0 5px;
+    }
+}
+
